@@ -42,7 +42,7 @@ int main(void)
     print_dlistint(head);
     printf("-----------------\n");
     delete_dnodeint_at_index(&head, 0);
-     print_dlistint(head);
+    print_dlistint(head);
     printf("-----------------\n");
     delete_dnodeint_at_index(&head, 0);
     printf("-----------------\n");
@@ -65,4 +65,4 @@ int main(void)
     delete_dnodeint_at_index(&head, 0);
     print_dlistint(head);
     return (0);
-}
+}}
